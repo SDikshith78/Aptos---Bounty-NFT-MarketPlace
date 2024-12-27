@@ -29,6 +29,8 @@ Issues We Faced & Solved:
                                           it is there and working fine we can proceed with transfer, support etc..
 * Lottie Animations: Managed to integrate Lottie animations for success and failure payment process, ensuring they display for an adequate duration without TypeScript errors.
 
+* I also wanted to add Tilt.js animation in frontend(typerscript) but it is not working.
+
 Note:
 * Transaction/Network Fees: Handled transactions for buying, selling, supporting, and transferring NFTs, ensuring appropriate fee management.
 * State Management: Used React's local state for managing NFT filters, sorting, and transaction status, opting for simplicity over complex state management solutions.
