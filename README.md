@@ -3,7 +3,7 @@
 -----------------------------------   Bounty - Level Up Your Aptos NFT Marketplace dApp (Fullstack) ---------------------------------------
 
 Video Demo link: Click to see
-paste the link here
+https://youtu.be/e7POZtfyGHE?si=QNXxy1aGvebzzo3j
 
 ------------------------------------------------------------------ PROJECT OVERVIEW -------------------------------------------------------
 As part of our development on the Aptos blockchain, we've built an NFT Marketplace that allows users to interact with NFTs through buying, selling, supporting creators, and transferring. 
