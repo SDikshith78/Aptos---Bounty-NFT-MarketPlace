@@ -5,6 +5,28 @@
 Video Demo link: Click to see
 https://youtu.be/e7POZtfyGHE?si=QNXxy1aGvebzzo3j
 
+-----------------------------------   Set Up Environment both local and codespace environment ---------------------------------------
+Note: Mine is Windows set up so i used Codespace to do this Campaign/Bounty and did it in Testnet Network only.
+
+Backend-Aptos-NFT: Its a smart contract where we have build all the main features you see in frontend basically its a backend developement
+* Clone the project and head to Backend-Aptos-NFT
+* copy paste this in your terminal: curl -fsSL "https://aptos.dev/scripts/install_cli.py" | python3
+* You can check that your installation is working by running the following command : aptos info
+* Then Go to Contracts folder by giving this cmd to your terminal: cd contracts
+* After this copy paste this commands(cmd) in contracts folder: aptos init
+* after aptos init then give this cmd in same contracts folder: aptos move publish
+* Reinitialise your NFTMarketplace module by clicking the initialize function in the Aptos and note that if you get generic error dont worry it means your profile hasnt been wiped out it willonly wipe out incase if your using Devnet Network but we are using Testnet Network so we are good.
+
+Frontend-Aptos-NFT: Since we have Smart Contract we need to show it in brower user interface visually so we will use React's typescript
+* Clone the project and head to Frontend-Aptos-NFT
+* We already set up everyting so,
+* Open the terminal and give this cmd: npm install
+* it will install all the necessary node modules needed for this frontend
+* then in the same terminal give this cmd to see the visual front interface: npm start
+* thats it, it will take you to local host to see the front end part.
+
+Note: I havent given all the set up commands because we already seen that in Quest- 1 & 2 and this is the bounty which is the continuation of those quests with additional features and styles i have build.
+
 ------------------------------------------------------------------ PROJECT OVERVIEW -------------------------------------------------------
 As part of our development on the Aptos blockchain, we've built an NFT Marketplace that allows users to interact with NFTs through buying, selling, supporting creators, and transferring. 
 The core logic is managed by a Move smart contract for blockchain operations, while the frontend provides an engaging user interface. 
